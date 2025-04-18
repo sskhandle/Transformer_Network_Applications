@@ -1,0 +1,11 @@
+*.log
+build/
+/tmp/
+*.bak
+.ipynb_checkpoints
+*.mp4
+/src/apps/named_entity_recognition/model/tf_model.h5
+/src/apps/question_answering/model/pytorch/pytorch_model.bin
+/src/apps/question_answering/model/tensorflow/tf_model.h5
+/src/preprocessing/glove/glove.6B.100d.txt
+
