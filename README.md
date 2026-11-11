@@ -87,8 +87,11 @@ https://huggingface.co/google/mt5-base/blob/2e1532e3c3ac67f4e8ed3c4a4d95a2fa0d69
 # /src/preprocessing/glove/
 https://huggingface.co/datasets/SLU-CSCI4750/glove.6B.100d.txt
 
-# Run the notebook
-jupyter notebook Mini_GPT.ipynb
+# Run the scripts (each one is standalone)
+python src/preprocessing/preprocessing.py
+python src/transformer_network/transformer.py
+python src/apps/named_entity_recognition/ner.py
+python src/apps/question_answering/qa.py
 ```
 
 ## References
